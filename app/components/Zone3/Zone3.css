@@ -1,0 +1,59 @@
+.zone3 {
+  background-image: url('/background_footer.png');
+  background-size: 50% auto;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  min-height: 600px;
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.top-text {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(34, 127, 144, 0.7);
+  padding: 1rem;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.images-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.images-row img {
+  width: 60%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.trial-button {
+  background: rgb(34, 127, 144);
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 3px solid rgb(191, 218, 224);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.trial-button:hover {
+  background: rgb(27, 102, 115);
+}

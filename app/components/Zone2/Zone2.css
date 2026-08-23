@@ -1,0 +1,130 @@
+.zone2 {
+  position: relative;
+  min-height: 800px;
+  padding: 2rem;
+}
+
+.top-text {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(34, 127, 144, 0.7);
+  padding: 1rem;
+  border: 3px solid rgb(191, 218, 224);
+  border-radius: 16px;
+}
+
+.pp {
+  font-size: 1.6rem;  
+  font-weight: bold;
+  color: #fff;
+}
+
+.web-version-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+}
+
+.web-main {
+  max-width: 800px;
+  display: flex;
+  align-items: flex-start;
+  background: rgba(34, 127, 144, 0.8);
+  padding: 1.5rem;
+  border: 3px solid rgb(191, 218, 224);
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.web-main img {
+  width: 40%;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 16px;
+}
+
+.text-block h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.text-block p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.features-container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.features-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1.2s ease 0.3s, transform 1.2s ease 0.3s;
+}
+
+.features-row.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.small-container {
+  flex: 0 1 25%;
+  max-width: 200px;
+  background: #fff;
+  border: 3px solid rgb(191, 218, 224);
+  border-radius: 16px;
+  padding: 0.5rem;
+}
+
+.small-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.large-container {
+  flex: 1;
+  background: rgba(34, 127, 144, 0.8);
+  padding: 1.5rem;
+  border: 3px solid rgb(191, 218, 224);
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.large-container h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.large-container p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#bt-1 {
+  margin-bottom: 2rem;
+}
+
+#bt-2 {
+  margin-bottom: 2rem;
+}
